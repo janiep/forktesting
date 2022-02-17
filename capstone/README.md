@@ -8,11 +8,11 @@
 
 
 ### Problem Statement
-Utilizing Spotify's Top 200 Weekly (Global) charts from 2020 and 2021, can we idenitfy what makes a song popular based on specific features of a song?
+Utilizing Spotify's Top 200 Weekly (Global) charts from 2020 and 2021, can we identify what makes a song popular based on specific features of a song?
 
 For this project, I will build a regression model to predict a song's popularity. Model performance will be determined by the root mean squared error and R2 score. The success of the model will be measured by an increase of at least 10% from the baseline score.
 
-By looking into this problem, this could potentially help new musicians or independent artistswho are trying to get their song recognized.
+By looking into this problem, this could potentially help new musicians or independent artists who are trying to get their song recognized.
 
 ### Description of Data
 From the dataset, ['spotify_dataset.csv'](./datasets/spotify_dataset.csv), I created several CSV files from data cleaning and preprocessing.
