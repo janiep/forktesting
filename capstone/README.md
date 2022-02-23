@@ -27,8 +27,8 @@ Datasets that were created through data cleaning and preprocessing:
 -spotify_dataset.csv (original dataset): 1556 rows and 23 columns
 -genre.csv: 1545 rows and 15 columns
 -spotify_df.csv: 1545 rows and 37 columns
--poly_features_df.csv:
--final_df.csv
+-poly_features_df.csv: 1545 rows and 74 columns
+-final_df.csv: 1480 rows and 67 columns
 
 #### Source
 The dataset, "Spotify Top 200 Charts (2020-2021)" is from [Kaggle](https://www.kaggle.com/sashankpillai/spotify-top-200-charts-20202021).
@@ -108,3 +108,8 @@ Overall, by doing data cleaning on the genres and taking the 335 various genres 
 
 With the goal of improving the RMSE and R2 score of at least 10%, I was able to achieve a train RMSE score of 4.65 and a test RMSE 5.71 and a R2 train score of 0.903 and R2 test score of 0.848. The RMSE was improved by ~30% and the R2 test score was improved by ~14% (Baseline random forest model had a R2 train score of 0.951, test score of 0.745, RMSE train of 3.47, and RMSE test of 8.28). This was achieved through a random forest regressor model. Looking at the attribute, feature importances, I found that the amount of followers an artist has, number of times the song has been charted, number of streams, and the year the song was released were the most prominent features in predicting popularity.
 
+I recommend that the independent artist focuses on their artist following; whether that be with social media or some type of engagement. If they’re promoting a song, also ensuring it’s recent, but also that there are specific audio features and top genres that could help the artist as well.
+
+### Next Steps
+
+Potential next steps would be to add in lyrics and utilze natural language processing to analyze lyrics/sentiment scores to see if lyrics affect popularity scores.
