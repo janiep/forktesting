@@ -112,4 +112,4 @@ I recommend that the independent artist focuses on their artist following; wheth
 
 ### Next Steps
 
-Potential next steps would be to add in lyrics and utilze natural language processing to analyze lyrics/sentiment scores to see if lyrics affect popularity scores.
+Potential next steps would be to add in lyrics and utilize natural language processing to analyze lyrics/sentiment scores to see if lyrics affect popularity scores.
