@@ -2,6 +2,7 @@
 
 # Project 1: Standardized Testing Analysis
 # Syndey is very cool!
+# oops - Sydney - I'm dyslexic! lol jk I'm not really.  
 --- 
 
 ## Executive Summary
